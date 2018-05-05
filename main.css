@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 html {
     background-image: url("images/tend_sunflower.jpg");
@@ -19,8 +20,9 @@ footer {
 }
 
 h1 {
+    font-family: 'Raleway', helvetica;
     color: rgba(46, 45, 45, 0.596);
-    font-size: 60px;
+    font-size: 50px;
 }
 
 #table {
