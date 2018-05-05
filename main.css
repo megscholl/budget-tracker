@@ -1,0 +1,43 @@
+
+html {
+    background-image: url("https://img.etsystatic.com/il/4c76aa/1323130818/il_fullxfull.1323130818_gt44.jpg?version=0");
+    background-repeat: no-repeat;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+footer {
+    color: rgba(46, 45, 45, 0.596);
+    position:absolute;
+    bottom: 0px;
+    float: right;
+    height: 35px;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 30px;
+}
+
+h1 {
+    color: rgba(46, 45, 45, 0.596);
+    font-size: 60px;
+}
+
+#table {
+    width: 35%;
+    color: rgb(0, 179, 179);
+    border: 1px solid rgb(0, 179, 179);
+    margin-right: 4rem;
+}
+
+.table-position {
+    float: right; 
+}
+
+.links {
+ font-size: small;
+}
+
+a {
+ color: rgb(0, 179, 179);
+}
