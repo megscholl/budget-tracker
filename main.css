@@ -47,6 +47,11 @@ h1 {
     padding: 3px 5px;
 }
 
-a {
- color: rgb(0, 179, 179);
-}
+a:link {
+    color: rgb(0, 179, 179);
+   }
+
+a:hover {
+    color: rgb(0, 179, 179);
+    text-decoration: underline dashed;
+    }
