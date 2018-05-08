@@ -2,6 +2,7 @@
 "use strict";
 
 let $ = require('../lib/node_modules/jquery'),
+    user = require('./user'),
     firebase = require('./firebasekey');
 
 
@@ -15,8 +16,9 @@ let $ = require('../lib/node_modules/jquery'),
         let budgetObject = {
             date: $("#date").val(),
             job: $("#job").val(),
-            income: $("income").val()
+            income: $("#income").val()
         };
+        console.log("date, job, income", budgetObject.date, budgetObject.job, budgetObject.income);
         return budgetObject;
     }
 
