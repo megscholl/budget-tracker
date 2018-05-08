@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+html {
+  background-image: url("../images/tend_sunflower.jpg");
+  background-repeat: no-repeat; }
+
+body {
+  font-family: 'Raleway', helvetica; }
+
+footer {
+  color: rgba(46, 45, 45, 0.596);
+  position: absolute;
+  bottom: 0px;
+  float: right;
+  height: 35px;
+  padding: 10px 30px; }
+
+h1 {
+  font-family: 'Raleway', helvetica;
+  color: rgba(46, 45, 45, 0.596);
+  font-size: 45px;
+  padding: 10px 30px; }
+
+#table {
+  width: 35%;
+  color: #00b3b3;
+  border: 1px solid #00b3b3;
+  margin-right: 4rem; }
+
+.main-object-position {
+  float: right; }
+
+.links {
+  font-size: small; }
+
+.save-btn {
+  background-color: #00b3b3;
+  color: white;
+  border: solid thin #00b3b3;
+  padding: 3px 5px; }
+
+a:link {
+  color: #00b3b3; }
+
+a:hover {
+  color: #00b3b3;
+  text-decoration: underline dashed; }
+
+/*# sourceMappingURL=main.css.map */
