@@ -10,6 +10,8 @@ let $ = require('../lib/node_modules/jquery'),
 
     $(document).on("click", "#save-btn", function() {
         console.log("save button clicked");
+        
+    addBudgetObj();
     });
 
     function buildBudgetObject() {
@@ -31,5 +33,3 @@ let $ = require('../lib/node_modules/jquery'),
             data: JSON.stringify()
         });
     }
-
-    
