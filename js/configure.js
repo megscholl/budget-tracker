@@ -14,6 +14,7 @@ var config = {
 
 
 firebase.getFBsettings = function(){
+  // console.log("get FB Settings", getFBSettings);
 	 return config;
 };
 
